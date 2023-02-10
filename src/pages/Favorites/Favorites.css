@@ -1,0 +1,106 @@
+.myMovies h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+}
+
+.myMovies .divh1 {
+    color: #FFF;
+    height: 200px;
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(217,206,226,1) 8%, rgba(148,116,172,1) 35%, rgba(67,12,110,0.8855917366946778) 73%, rgba(61,5,106,1) 100%);
+}
+
+.favoritesFilms {
+    width: 100%;
+    margin: 14px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    padding: 10px;
+}
+
+.favoritesFilms article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 250px;
+    margin: 0 20px 0 20px;
+    margin-bottom: 20px;
+    transition: all 0.5s;
+    /* height: 500px; */
+}
+
+.favoritesFilms article:hover {
+    /* transform: scale(0.96); */
+    cursor: pointer;
+}
+
+.favoritesFilms img {
+    width: 200px;
+    height: 320px;
+    border-radius: 8px;
+    /* border-top-right-radius: 8px; */
+    max-width: 100%;
+    max-height: 500px;
+    min-height: 200px;
+    object-fit: cover;
+    display: block;
+    box-shadow: rgba(71, 71, 71, 0.5) 0px 2px 8px 0px;
+}
+
+.favoritesFilms a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    font-size: 16px;
+    text-decoration: none;
+    color: #202024;
+    transition: all 0.5s;
+}
+
+.favoritesFilms a:hover {
+    background-color: #FFF;
+    color: #202024;
+}
+
+.favoritesFilms strong {
+    margin-bottom: 14px;
+    text-align: center;
+    font-size: 16px;
+    display: block;
+    
+}
+
+.favoritesFilms a {
+    margin: 10px;
+    background-color: rgba(67,12,110,0.8855917366946778);
+    width: 200px;
+    border-radius: 8px;
+    color: #FFF;
+}
+
+.favoritesFilms a:hover {
+    border: 1px solid rgba(67,12,110,0.8855917366946778);
+    /* box-shadow: rgba(255, 255, 255, 0.5) 0px 2px 8px 0px; */
+}
+
+.favoritesFilms button {
+    border-style: none;
+    height: 30px;
+    background-color: rgba(214, 22, 70, 0.886);
+    width: 200px;
+    border-radius: 8px;
+    color: #FFF;
+}
+
+.favoritesFilms button:hover {
+    background-color: #FFF;
+    border: 1px solid rgba(214, 22, 70, 0.886);
+    color: #202024;
+}
