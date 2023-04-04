@@ -15,3 +15,6 @@ Contam com opção de ver trailer, que no caso o link leva para o YouTube, com o
 - Na página Favoritos, os dados dos filmes salvos são resgatados do localStorage. Nela contém a funcioalidade de excluir o filme
 dos favoritos, e de ver detalhes.
 A Api consumida no projeto é a Api de filmes do TDB Movie.
+
+![home-newMovies](https://user-images.githubusercontent.com/73610225/229943351-97904674-3fc0-4b07-a6c2-c7900fe63404.png)
+![favoritos-newMovies](https://user-images.githubusercontent.com/73610225/229943387-b7ff2538-5fda-46f8-a524-6aed00dd57fc.png)
